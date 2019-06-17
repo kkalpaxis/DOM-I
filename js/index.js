@@ -83,7 +83,11 @@ paragraph[6].textContent = "1 (888) 888-8888";
 paragraph[7].textContent = "sales@greatidea.io";
 paragraph[8].textContent = "Copyright Great Idea! 2018";
 
-
+// Green Nav 
+const navGreen = document.querySelectorAll("nav a");
+for (let i = 0; i < nav.length; i++) {
+  navGreen[i].style.color = "green";
+}
 
 
 
