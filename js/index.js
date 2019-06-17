@@ -41,11 +41,19 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
+// Nav
 const navServices = document.getElementsByTagName("a")[0].innerHTML=`${siteContent.nav["nav-item-1"]}`;
 const navProduct = document.getElementsByTagName("a")[1].innerHTML=`${siteContent.nav["nav-item-2"]}`;
 const navVision = document.getElementsByTagName("a")[2].innerHTML=`${siteContent.nav["nav-item-3"]}`;
 const navFeatures = document.getElementsByTagName("a")[3].innerHTML=`${siteContent.nav["nav-item-4"]}`;
 const navAbout = document.getElementsByTagName("a")[4].innerHTML=`${siteContent.nav["nav-item-5"]}`;
-const navContact= document.getElementsByTagName("a")[5].innerHTML=`${siteContent.nav["nav-item-6"]}`;
+const navContact = document.getElementsByTagName("a")[5].innerHTML=`${siteContent.nav["nav-item-6"]}`;
 	
-	
+// Main Header	
+const header = document.getElementsByTagName("h1")[0].innerHTML = `DOM IS AWESOME`;
+
+const button = document.getElementsByTagName("button")[0].innerHTML = `Get Started`;
+
+const headerImg = document.querySelector("cta-img");
+
+
