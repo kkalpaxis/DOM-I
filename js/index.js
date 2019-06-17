@@ -42,18 +42,29 @@ let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 // Nav
-const navServices = document.getElementsByTagName("a")[0].innerHTML=`${siteContent.nav["nav-item-1"]}`;
-const navProduct = document.getElementsByTagName("a")[1].innerHTML=`${siteContent.nav["nav-item-2"]}`;
-const navVision = document.getElementsByTagName("a")[2].innerHTML=`${siteContent.nav["nav-item-3"]}`;
-const navFeatures = document.getElementsByTagName("a")[3].innerHTML=`${siteContent.nav["nav-item-4"]}`;
-const navAbout = document.getElementsByTagName("a")[4].innerHTML=`${siteContent.nav["nav-item-5"]}`;
-const navContact = document.getElementsByTagName("a")[5].innerHTML=`${siteContent.nav["nav-item-6"]}`;
+const siteNav = document.querySelectorAll("nav a");
+siteNav[0].textContent = "Services";
+siteNav[1].textContent = "Product";
+siteNav[2].textContent = "Vision";
+siteNav[3].textContent = "Features";
+siteNav[4].textContent = "About";
+siteNav[5].textContent = "Contact";
 	
 // Main Header	
 const header = document.getElementsByTagName("h1")[0].innerHTML = `DOM IS AWESOME`;
 
 const button = document.getElementsByTagName("button")[0].innerHTML = `Get Started`;
 
-const headerImg = document.querySelector("cta-img");
+const headerImg = document.getElementById("cta-img");
+const headerImgFixed = headerImg.setAttribute("src", siteContent["cta"]["img-src"]);
+
+// Main Content
+const sectionHeaders = document.querySelectorAll("h4");
+sectionHeaders[0].textContent = "Features";
+sectionHeaders[1].textContent = "About";
+sectionHeaders[2].textContent = "Services";
+sectionHeaders[3].textContent = "Product";
+sectionHeaders[4].textContent = "Vision";
+sectionHeaders[5].textContent = "Contact";
 
 
