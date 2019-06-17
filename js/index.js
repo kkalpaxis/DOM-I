@@ -77,6 +77,13 @@ paragraph[2].textContent = "Services content elementum magna eros, ac posuere el
 paragraph[3].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 paragraph[4].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 
+// Footer
+paragraph[5].textContent = "123 Way 456 Street" + "Somewhere, USA";
+paragraph[6].textContent = "1 (888) 888-8888";
+paragraph[7].textContent = "sales@greatidea.io";
+paragraph[8].textContent = "Copyright Great Idea! 2018";
+
+
 
 
 
